@@ -1,0 +1,19 @@
+.wrapper{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(220, 232, 232);
+}
+.head{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.line{
+    width: 11rem;
+    height: 0.3rem;
+    background-color: rgb(54, 163, 207);
+    border-radius: 2rem;
+}

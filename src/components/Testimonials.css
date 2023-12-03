@@ -1,0 +1,71 @@
+
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70%;
+    width: 45%;
+    position: relative;
+}
+
+.reviews{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(181, 236, 236);
+    border-radius: 0.5rem;
+    padding: 3rem 3rem;
+}
+.reviews:hover{
+    background-color: aliceblue;
+    transition-duration: 700ms;
+    box-shadow: 3px 3px 10px black;
+}
+.btn-contain{
+    display: flex;
+    gap: 2rem;
+    margin-top: 1rem;
+}
+.lfbutton{
+    color: rgb(54, 163, 207);
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+.rtbutton{
+    color: rgb(54, 163, 207);
+    height: 1.5rem;
+    width: 1.5rem;
+}
+.suscribe{
+    margin-top: 1rem;
+    color: aliceblue;
+    background-color: rgb(97, 179, 211);
+    padding: 3px 10px;
+    border-radius: 0.5rem;
+    font-weight: 500;
+}
+
+.suscribe:hover{
+    color: whitesmoke;
+    background-color: rgb(9, 182, 250);
+    transition-duration: 600ms;
+    font-weight: 700;
+}
+
+.image{
+    height: 6rem;
+    width: 6rem;
+    position: absolute;
+    left: 2rem;
+    top: -1rem;
+    background-color: rgb(54, 163, 207);
+    padding-top: 0.1rem;
+    padding-right: 0.6rem;
+    border-radius: 3rem;
+}
+
+.image img{
+    border-radius: 4rem;
+}

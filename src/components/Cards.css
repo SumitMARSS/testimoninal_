@@ -1,0 +1,32 @@
+.card{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.name{
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+.job{
+    color: rgb(54, 163, 207);
+    font-weight: 500;
+    font-size: 0.8rem;
+}
+.detail{
+    font-weight: 400;
+    font-size: 0.75rem;
+}
+.lfQuote{
+    color: rgb(54, 163, 207);
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+.rtQuote{
+    color: rgb(54, 163, 207);
+    margin-top: 1rem;
+}
+
+
+
